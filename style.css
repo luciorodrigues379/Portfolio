@@ -1,0 +1,72 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.barra-inicial{
+    background: linear-gradient( #217eca, #47d3cc);
+    padding: 8px;
+}
+
+.barra-inicial h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nome{
+    text-align: center;
+    padding: 4%;
+}
+
+.nome h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.imagem-perfil{
+    text-align: center;
+}
+
+.imagem-perfil img{
+    width: 250px;
+}
+
+.texto-sobre{
+    padding: 7%;
+}
+
+.texto-sobre h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.texto-sobre p{
+    text-align: justify;
+}
+
+.meus-projetos{
+    background: linear-gradient( #217eca, #47d3cc);
+    padding: 2%;
+}
+
+.meus-projetos h2{
+    padding: 3%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.meus-projetos .projetos1e2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.meus-projetos .projetos1e2 a img{
+    width: 90%;
+    margin-right: 50%;
+    margin-left: 4%;
+    transition: transform 0.3s ease;
+}
+
+.meus-projetos .projetos1e2 a img:hover{
+    filter: brightness(70%);
+    transform: scale(1.2);
+}
